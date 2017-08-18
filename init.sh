@@ -6,4 +6,4 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 chsh -s `which zsh`
 
 git config --global user.name "Maksym Diabin"
-
+echo set completion-ignore-case on | sudo tee -a /etc/inputrc
